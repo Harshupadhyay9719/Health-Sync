@@ -1,0 +1,42 @@
+AuthSystem/
+│
+├── src/
+│   └── com/authsystem/
+│       ├── servlets/
+│       │   ├── LoginServlet.java
+│       │   ├── RegisterServlet.java
+│       │   └── LogoutServlet.java
+│       │
+│       ├── dao/                     <-- Data Access Layer (Database)
+│       │   └── UserDAO.java
+│       │
+│       ├── model/                   <-- JavaBeans or POJOs
+│       │   └── User.java
+│       │
+│       └── util/                    <-- Helper utilities
+│           └── DBConnection.java
+│
+├── WebContent/   (or `webapp/` if Maven project)
+│   ├── index.html
+│   ├── login.html
+│   ├── register.html
+│   ├── dashboard.jsp
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   ├── images/
+│   │   └── (logo.png, icons, etc.)
+│   └── WEB-INF/
+│       ├── web.xml
+│       └── lib/
+│           └── (JDBC driver .jar, etc.)
+│
+├── README.md
+├── pom.xml        (if using Maven)
+└── .gitignore
+
+
+
+database-root
+password-21696579
